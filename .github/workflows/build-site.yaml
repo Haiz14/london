@@ -35,7 +35,6 @@ jobs:
           # this should match the `pages` option in your adapter-static options
           path: 'build/'
 
-
 deploy:
     needs: build_site
     runs-on: ubuntu-latest
