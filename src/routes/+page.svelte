@@ -12,6 +12,6 @@ import {onMount} from "svelte";
 		<h1 class="h1"> {content.intro.quote} </h1>
 		<h5 class="h5"> {content.intro.longer_quote} </h5>
 	</div>
-	<div class="">
+	<div>
 	</div>
 </div>
