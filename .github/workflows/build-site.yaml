@@ -3,7 +3,7 @@ on:
     branches: 'main'
 
 jobs:
-  update-site:
+  build-site:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -36,7 +36,7 @@ jobs:
           path: 'build/'
 
   deploy:
-      needs: build_site
+      needs: build-site
       runs-on: ubuntu-latest
 
       permissions:
